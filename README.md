@@ -1,2 +1,2 @@
 # Reprograma exerc.01
-24/10 - enviar
+24/10 - enviar (quinta-feira)
