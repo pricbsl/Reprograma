@@ -1,169 +1,177 @@
-     * {
-     margin: 0;
-     padding: 0;
-     border: 0;
-     box-sizing: border-box;
- }
- 
- body {
-     font-family: 'Nunito', sans-serif;
-     color: #fff;
- }
- 
- h1.banner__title {
-     font-family: 'times new roman', Arial, , sans-serif;
-     font-size: 120px;
-     text-transform: uppercase;
-     color: white;
-     text-align: center;
-     justify-content: center;
-     padding: 100px;
- }
- 
- section.banner_transition {
-     background-image: url("https://file.globalupload.io/3E3pnt0XK1.jpg");
-     background-size: cover;
-     height: 550px;
-     background-repeat: no-repeat;
-     text-align: center;
-     align-content: center;
-     align-items: center;
- }
- 
- .nav {
-     background-color: #96b6ca;
-     width: 1350px;
-     height: 85px;
-     border: 1px solid #ccc;
- }
- 
- ul li a {
-     list-style-type: none;
-     display: flex;
-     padding: 30px 100px 0px 0px;
-     text-decoration: none;
-     color: white;
- }
- 
- .nav__menu {
-     display: flex;
-     float: right;
-     list-style-type: none;
- }
- 
- a.btn.btn--primary.banner__btn.transition {
-     text-decoration: none;
-     color: white;
-     display: inline;
-     padding: 10px 15px;
-     text-transform: uppercase;
-     background-color: #829dad;
-     border-radius: 8px;
-     font-size: 14px;
-     flex-wrap: wrap-reverse;
- }
- 
- h2.banner__subtitle {
-     font-size: 22px;
-     color: white;
-     FONT-WEIGHT: 200;
-     padding: 25px;
-     margin-top: -130px;
- }
- 
- #sobre {
-     padding: 80px;
-     background-color: #454545;
- }
- 
- .about {
-     text-align: center;
-     color: white;
- }
- 
- h2.about__title {
-     font-family: 'Verdana', Tahoma, sans-serif;
-     font-size: 22px;
- }
- 
- p {
-     display: block;
-     margin-block-start: 1em;
-     margin-block-end: 1em;
-     margin-inline-start: 0px;
-     margin-inline-end: 0px;
- }
- 
- #destinos {
-     padding: 50px 200px 100px 150px;
-     display: flex;
-     flex-direction: row;
- }
- 
- .destination__text {
-     /* align-items: center; */
-     padding: 140px 20px;
-     color: #454545;
- }
- 
- .destination--siberia__img {
-     float: left;
-     border: transparent thin solid;
-     margin: 0px 10px 10px 0;
-     max-width: 800px;
- }
- 
- .destination--groenlandia__img {
-     /* border: transparent thin solid; */
-     margin: 0px 10px 10px 0;
-     max-width: 500px;
-     float: left;
- }
- 
- .destination__description.destination__description--groenlandia {
-     background-color: #454545;
-     padding: 50px;
-     border: transparent thin solid;
-     margin: 0px 10px 0px 0px;
-     max-width: 400px;
-     float: right;
-     /* padding: 25px 40px 40px 20px; */
- }
- 
- .destination__description.destination__description--antartida {
-     background-color: #454545;
-     max-width: 400px;
-     float: left;
-     padding: 50px;
-     margin: 0px 10px 0px 0px;
-     border: transparent thin solid;
-     /* padding: 25px 40px 40px 20px; */
- }
- 
- .destination--antartida__img {
-     border: transparent thin solid;
-     margin: 0px 10px 10px 0;
-     max-width: 500px;
-     float: right;
- }
- 
- .container {}
- 
- #contato.footer {
-     padding: 70px;
-     background-color: #454545;
-     text-align: center;
-     text-decoration: none;
- }
- 
- .footer__socialmedia {
-     display: flex;
-     list-style-type: none;
-     justify-content: center;
-     justify-items: center;
- }
- 
- @media (min-width: 600px) {
-     .nav__mobile {
-         display: none;
-     }
+                                 * {
+                                 margin: 0;
+                                 padding: 0;
+                                 border: 0;
+                                 box-sizing: border-box;
+                             }
+                             
+                             body {
+                                 font-family: 'Nunito', sans-serif;
+                                 color: #fff;
+                             }
+                             
+                             h1.banner__title {
+                                 font-family: 'times new roman', Arial, , sans-serif;
+                                 font-size: 120px;
+                                 text-transform: uppercase;
+                                 color: white;
+                                 text-align: center;
+                                 justify-content: center;
+                                 padding: 100px;
+                             }
+                             
+                             section.banner_transition {
+                                 background-image: url("https://file.globalupload.io/3E3pnt0XK1.jpg");
+                                 background-size: cover;
+                                 height: 550px;
+                                 background-repeat: no-repeat;
+                                 text-align: center;
+                                 align-content: center;
+                                 align-items: center;
+                             }
+                             
+                             .nav {
+                                 background-color: #96b6ca;
+                                 width: 1350px;
+                                 height: 85px;
+                                 border: 1px solid #ccc;
+                             }
+                             
+                             ul li a {
+                                 list-style-type: none;
+                                 float: right;
+                                 display: flex;
+                                 padding: 30px 100px 0px 0px;
+                                 text-decoration: none;
+                                 color: white;
+                             }
+                             
+                             .nav__link {
+                                 float: right;
+                             }
+                             
+                             .nav__menu {
+                                 display: flex;
+                                 float: right;
+                                 list-style-type: none;
+                             }
+                             
+                             a.btn.btn--primary.banner__btn.transition {
+                                 text-decoration: none;
+                                 color: white;
+                                 display: inline;
+                                 padding: 10px 15px;
+                                 text-transform: uppercase;
+                                 background-color: #829dad;
+                                 border-radius: 8px;
+                                 font-size: 14px;
+                                 flex-wrap: wrap-reverse;
+                             }
+                             
+                             h2.banner__subtitle {
+                                 font-size: 22px;
+                                 color: white;
+                                 FONT-WEIGHT: 200;
+                                 padding: 25px;
+                                 margin-top: -130px;
+                             }
+                             
+                             #sobre {
+                                 padding: 80px;
+                                 background-color: #454545;
+                             }
+                             
+                             .about {
+                                 text-align: center;
+                                 color: white;
+                             }
+                             
+                             h2.about__title {
+                                 font-family: 'Verdana', Tahoma, sans-serif;
+                                 font-size: 22px;
+                             }
+                             
+                             p {
+                                 display: block;
+                                 margin-block-start: 1em;
+                                 margin-block-end: 1em;
+                                 margin-inline-start: 0px;
+                                 margin-inline-end: 0px;
+                             }
+                             
+                             #destinos {
+                                 display: inline-block;
+                                 margin: -90px 55px 0px 85px;
+                                 display: inline-block;
+                                 padding: 100px;
+                             }
+                             
+                             .destination__text {
+                                 /* align-items: center; */
+                                 padding: 140px 20px;
+                                 color: #454545;
+                             }
+                             
+                             .destination--siberia__img {
+                                 float: left;
+                                 border: transparent thin solid;
+                                 margin: 0px 10px 10px 0;
+                                 max-width: 800px;
+                             }
+                             
+                             .destination--groenlandia__img {
+                                 border: transparent thin solid;
+                                 /* margin: -280px 0px; */
+                                 max-width: 440px;
+                                 float: left;
+                             }
+                             
+                             .destination__description.destination__description--groenlandia {
+                                 background-color: #454545;
+                                 border: transparent thin solid;
+                                 margin: -293px 150px 0px 0px;
+                                 max-width: 400px;
+                                 float: right;
+                                 padding: 66px 20px 40px 20px;
+                             }
+                             
+                             .destination__description.destination__description--antartida {
+                                 background-color: #454545;
+                                 border: transparent thin solid;
+                                 margin: auto;
+                                 max-width: 440px;
+                                 float: left;
+                                 padding: 40px 40px 50px 28px;
+                             }
+                             
+                             .destination--antartida__img {
+                                 max-width: 400px;
+                                 margin: 0px 146px 0px 0px;
+                                 padding: 0px 0px 40px 0px;
+                                 float: right;
+                             }
+                             
+                             .container {
+                                 /* margin: -90px 55px 0px 85px; */
+                                 display: inline-block;
+                                 /* padding: 100px; */
+                             }
+                             
+                             #contato.footer {
+                                 padding: 70px;
+                                 background-color: #454545;
+                                 text-align: center;
+                                 text-decoration: none;
+                             }
+                             
+                             .footer__socialmedia {
+                                 display: flex;
+                                 list-style-type: none;
+                                 justify-content: center;
+                                 justify-items: center;
+                             }
+                             
+                             @media (min-width: 600px) {
+                                 .nav__mobile {
+                                     display: none;
+                                 }
