@@ -1,0 +1,50 @@
+.banner__title {
+    font-family: 'varela round ';
+    font-size: 105px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 8px;
+    padding-top: 80px;
+}
+
+@media(max-width:1024px) {
+    .banner__title {
+        font-size: 80px;
+    }
+}
+
+@media(max-width:850px) {
+    .banner__title {
+        font-size: 60px;
+    }
+}
+
+section.banner_transition {
+    background-image: url("https://file.globalupload.io/3E3pnt0XK1.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    margin-top: 85px;
+    background-size: cover;
+}
+
+@media( max-width: 420px) {
+    .banner {
+        height: 400px;
+        background-position: -360px 0;
+    }
+}
+
+@media(max-width:850px) {
+    .banner__subtitle {
+        font-size: 18px;
+    }
+}
+
+.banner_btn {
+    display: inline-block;
+    margin-top: 40px;
+}

@@ -1,0 +1,34 @@
+.footer {
+    background-color: #161616;
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+    color: white;
+}
+
+#contato.footer {
+    padding: 70px;
+    background-color: #454545;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.footer__twitter,
+.footer__facebook,
+.footer__youtube {
+    opacity: 0.5;
+    margin: 0 10px;
+}
+
+.footer__twitter:hover,
+.footer__facebook:hover,
+.footer__youtube:hover {
+    opacity: 1;
+}
